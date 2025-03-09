@@ -28,7 +28,7 @@ Visit my online resume at: [https://xcletus3.github.io](https://xcletus3.github.
 ├── index.html          # Main HTML file
 ├── styles.css          # CSS styling
 ├── script.js           # JavaScript functionality
-├── images/             # Directory containing images
+├── img/             # Directory containing images
 │   └── profile.jpg     # Profile picture
 ├── README.md           # This file
 └── resume.pdf          # Downloadable PDF version of resume
