@@ -40,24 +40,25 @@ header {
     gap: 30px;
 } */
 .profile {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
     align-items: center;
-    width: 100%;
-    padding: 20px;
+}
+
+.profile-image {
+    text-align: center;
 }
 
 .profile-content {
-    flex: 2;
-    text-align: left;
-    padding-left: 20px;
+    text-align: center;
 }
 
 .profile-image img {
-    width: 120px; /* Adjust size as needed */
-    height: 120px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
+    border: 5px solid rgba(255, 255, 255, 0.2);
 }
 
 .profile-content h1 {
@@ -73,9 +74,10 @@ header {
 }
 
 .contact-info {
-    flex: 2;
-    text-align: left; /* Aligns contact info to match name/title */
-    margin-top: -10px; /* Moves list slightly up */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
 }
 
 .contact-info p {
@@ -86,6 +88,7 @@ header {
 
 .contact-info i {
     color: #3498db;
+    width: 16px;
 }
 
 /* Section Styles */
@@ -334,5 +337,17 @@ footer {
     
     .contact-info {
         justify-content: center;
+    }
+}
+/* Responsive adjustment */
+@media screen and (max-width: 768px) {
+    .profile {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        text-align: center;
+    }
+    
+    .contact-info {
+        align-items: center;
     }
 }
