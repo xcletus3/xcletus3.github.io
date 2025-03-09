@@ -82,7 +82,7 @@ header {
 
 .contact-info p {
     display: flex;
-    align-items: right;
+    align-items: center;
     gap: 8px;
 }
 
