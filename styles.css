@@ -43,19 +43,21 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    padding: 20px;
 }
 
 .profile-content {
-    flex: 1;
+    flex: 2;
+    text-align: left;
     padding-left: 20px;
 }
 
 .profile-image img {
-    width: 150px;
-    height: 150px;
+    width: 120px; /* Adjust size as needed */
+    height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid rgba(255, 255, 255, 0.2);
 }
 
 .profile-content h1 {
@@ -71,9 +73,9 @@ header {
 }
 
 .contact-info {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px 20px;
+    flex: 2;
+    text-align: left; /* Aligns contact info to match name/title */
+    margin-top: -10px; /* Moves list slightly up */
 }
 
 .contact-info p {
