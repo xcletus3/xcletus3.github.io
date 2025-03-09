@@ -25,13 +25,13 @@ Visit my online resume at: [https://xcletus3.github.io](https://xcletus3.github.
 ## 📂 Repository Structure
 
 ```
-├── index.html          # Main HTML file
-├── styles.css          # CSS styling
-├── script.js           # JavaScript functionality
-├── img/             # Directory containing images
-│   └── profile.jpg     # Profile picture
-├── README.md           # This file
-└── CletusXavierS.pdf          # Downloadable PDF version of resume
+├── index.html           # Main HTML file
+├── styles.css           # CSS styling
+├── script.js            # JavaScript functionality
+├── img/                 # Directory containing images
+│   └── profile.jpg      # Profile picture
+├── README.md            # This file
+└── CletusXavierS.pdf    # Downloadable PDF version of resume
 ```
 
 ## 🔄 How to Update
