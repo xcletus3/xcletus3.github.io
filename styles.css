@@ -76,13 +76,13 @@ header {
 .contact-info {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     text-align: left;
 }
 
 .contact-info p {
     display: flex;
-    align-items: center;
+    align-items: right;
     gap: 8px;
 }
 
