@@ -46,9 +46,10 @@ header {
 } */
 
 .profile {
-    display: flex;
+    display: flex; /* Change from grid to flex */
+    justify-content: space-between; /* This spreads items across the container */
     align-items: center;
-    justify-content: space-between;
+    width: 100%;
 }
 
 .profile-image {
@@ -92,7 +93,7 @@ header {
     flex-direction: column;
     gap: 10px;
     text-align: left;
-    margin-left: auto; /* This pushes it to the right */
+    /* Remove any padding-left you had before */
 }
 
 
