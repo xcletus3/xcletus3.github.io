@@ -39,10 +39,17 @@ header {
     align-items: center;
     gap: 30px;
 } */
-.profile {
+/* .profile {
     display: grid;
     grid-template-columns: 1fr 2fr 3fr;
     align-items: center;
+} */
+
+.profile {
+    display: grid;
+    grid-template-columns: auto auto 1fr; /* Makes first two columns only as wide as needed */
+    align-items: center;
+    justify-content: space-between; /* Spreads the columns across the container */
 }
 
 .profile-image {
@@ -86,9 +93,8 @@ header {
     flex-direction: column;
     gap: 10px;
     text-align: left;
-    justify-self: end; /* This aligns the content to the right of its grid cell */
-    padding-left: 0;
-    padding-right: 20px; /* Optional: adds some spacing from the right edge */
+    justify-self: end; /* Aligns to the right edge of its grid cell */
+    margin-left: auto; /* Pushes it to the right */
 }
 
 
