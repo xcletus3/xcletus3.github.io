@@ -46,10 +46,9 @@ header {
 } */
 
 .profile {
-    display: grid;
-    grid-template-columns: auto auto 1fr; /* Makes first two columns only as wide as needed */
+    display: flex;
     align-items: center;
-    justify-content: space-between; /* Spreads the columns across the container */
+    justify-content: space-between;
 }
 
 .profile-image {
@@ -93,8 +92,7 @@ header {
     flex-direction: column;
     gap: 10px;
     text-align: left;
-    justify-self: end; /* Aligns to the right edge of its grid cell */
-    margin-left: auto; /* Pushes it to the right */
+    margin-left: auto; /* This pushes it to the right */
 }
 
 
