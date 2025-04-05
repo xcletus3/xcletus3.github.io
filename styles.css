@@ -41,7 +41,7 @@ header {
 } */
 .profile {
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-columns: 1fr 2fr 3fr; /* Increased 3rd column */
     align-items: center;
 }
 
@@ -86,11 +86,7 @@ header {
     flex-direction: column;
     gap: 10px;
     text-align: left;
-    justify-self: start;      /* align horizontally in grid cell */
-    align-self: start;
-    width: fit-content;       /* don't stretch full width */
-    margin-left: auto;        /* shift to the right inside its grid column */
-    padding-left: 20px;       /* optional fine-tuning */
+    padding-left: 40px; /* Still helps with fine-tuning */
 }
 
 
