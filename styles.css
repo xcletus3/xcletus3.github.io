@@ -78,7 +78,7 @@ header {
     flex-direction: column;
     gap: 10px;
     text-align: left;
-    margin-left: 20px;
+    padding-left: 40px; /* Shift right */
 }
 
 
@@ -339,6 +339,7 @@ footer {
     
     .contact-info {
         justify-content: center;
+        padding-left: 0; /* Remove shift for smaller screens */
     }
 }
 /* Responsive adjustment */
@@ -351,5 +352,6 @@ footer {
     
     .contact-info {
         align-items: center;
+        padding-left: 0; /* Consistent on small screens */
     }
 }
