@@ -42,7 +42,7 @@ header {
 .profile {
     display: grid;
     grid-template-columns: 1fr 2fr 3fr; /* Increased 3rd column */
-    align-items: center;
+    align-items: right;
 }
 
 .profile-image {
@@ -86,7 +86,7 @@ header {
     flex-direction: column;
     gap: 10px;
     text-align: left;
-    padding-left: 40px; /* Still helps with fine-tuning */
+    padding-left: 80px; /* Still helps with fine-tuning */
 }
 
 
