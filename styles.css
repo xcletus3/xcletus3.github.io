@@ -87,6 +87,7 @@ header {
     gap: 10px;
     text-align: left;
     justify-self: end; /* This aligns the content to the right of its grid cell */
+    padding-left: 0;
     padding-right: 20px; /* Optional: adds some spacing from the right edge */
 }
 
