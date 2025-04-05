@@ -39,17 +39,10 @@ header {
     align-items: center;
     gap: 30px;
 } */
-/* .profile {
-    display: grid;
-    grid-template-columns: 1fr 2fr 3fr;
-    align-items: center;
-} */
-
 .profile {
-    display: flex; /* Change from grid to flex */
-    justify-content: space-between; /* This spreads items across the container */
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
     align-items: center;
-    width: 100%;
 }
 
 .profile-image {
@@ -80,22 +73,12 @@ header {
     color: #3498db;
 }
 
-/* .contact-info {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    text-align: left;
-    padding-left: 120px; /* Shift right */
-} */
-
 .contact-info {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
-    /* Remove any padding-left you had before */
 }
-
 
 .contact-info p {
     display: flex;
@@ -354,7 +337,6 @@ footer {
     
     .contact-info {
         justify-content: center;
-        padding-left: 0; /* Remove shift for smaller screens */
     }
 }
 /* Responsive adjustment */
@@ -367,6 +349,5 @@ footer {
     
     .contact-info {
         align-items: center;
-        padding-left: 0; /* Consistent on small screens */
     }
 }
