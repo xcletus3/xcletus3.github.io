@@ -83,6 +83,7 @@ header {
 .contact-info {
     justify-self: end;    /* moves the whole box to the right edge */
     text-align: left;     /* keeps the text inside left-aligned */
+    padding-left: 100px;
 }
 
 .contact-info p {
