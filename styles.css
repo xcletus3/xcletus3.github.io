@@ -78,7 +78,9 @@ header {
     flex-direction: column;
     gap: 10px;
     text-align: left;
+    margin-left: 20px;
 }
+
 
 .contact-info p {
     display: flex;
