@@ -41,8 +41,8 @@ header {
 } */
 .profile {
     display: grid;
-    grid-template-columns: 1fr 2fr 3fr; /* Increased 3rd column */
-    align-items: right;
+    grid-template-columns: 1fr 2fr 3fr;
+    align-items: center;
 }
 
 .profile-image {
@@ -86,7 +86,8 @@ header {
     flex-direction: column;
     gap: 10px;
     text-align: left;
-    padding-left: 80px; /* Still helps with fine-tuning */
+    justify-self: end; /* This aligns the content to the right of its grid cell */
+    padding-right: 20px; /* Optional: adds some spacing from the right edge */
 }
 
 
