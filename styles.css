@@ -73,12 +73,24 @@ header {
     color: #3498db;
 }
 
-.contact-info {
+/* .contact-info {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
     padding-left: 120px; /* Shift right */
+} */
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    justify-self: start;      /* align horizontally in grid cell */
+    align-self: start;
+    width: fit-content;       /* don't stretch full width */
+    margin-left: auto;        /* shift to the right inside its grid column */
+    padding-left: 20px;       /* optional fine-tuning */
 }
 
 
