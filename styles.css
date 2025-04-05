@@ -78,7 +78,7 @@ header {
     flex-direction: column;
     gap: 10px;
     text-align: left;
-    padding-left: 40px; /* Shift right */
+    padding-left: 80px; /* Shift right */
 }
 
 
