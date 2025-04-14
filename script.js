@@ -85,9 +85,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 // Replace with your actual Google Form IDs
                 const googleFormUrl = `https://docs.google.com/forms/d/e/1FAIpQLSfuYKX4OaU4A2gsaLfNSpB2Qfrg7qyvSK-_N6DTNKrJNGaNCw/formResponse?` + 
-                    `entry.ENTRY_ID_FOR_NAME=${encodeURIComponent(name)}&` + 
-                    `entry.ENTRY_ID_FOR_EMAIL=${encodeURIComponent(email)}&` + 
-                    `entry.ENTRY_ID_FOR_MESSAGE=${encodeURIComponent(message)}&submit=Submit`;
+                    `entry.1411746086=${encodeURIComponent(name)}&` + 
+                    `entry.475157477=${encodeURIComponent(email)}&` + 
+                    `entry.1061192304=${encodeURIComponent(message)}&submit=Submit`;
                 
                 iframe.src = googleFormUrl;
                 
