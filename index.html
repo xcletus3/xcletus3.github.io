@@ -166,10 +166,11 @@ svg{display:block}
 .pl .usr{color:var(--green);font-weight:500}
 .pl .pth{color:var(--blue)}
 .pl .pchar{color:var(--green);font-weight:700;margin-right:6px}
-.nf{display:flex;flex-wrap:wrap;gap:14px;align-items:flex-start;margin:9px 0 6px}
-@media (min-width:901px) and (max-width:1120px){.nf{flex-direction:column;gap:12px}}
-.nf__logo{font-size:.64rem;line-height:1.18;margin:0;flex-shrink:0}
-.nf__logo .l1{color:var(--orange)} .nf__logo .l2{color:var(--yellow)} .nf__logo .l3{color:var(--green)} .nf__logo .l4{color:var(--aqua)} .nf__logo .l5{color:var(--blue)}
+.nf{display:flex;flex-direction:column;gap:14px;align-items:flex-start;margin:9px 0 6px}
+.nf__logo{margin:0;flex-shrink:0}
+.nf__photo{width:128px;height:128px;object-fit:cover;border-radius:8px;border:1px solid color-mix(in srgb,var(--accent) 45%,var(--line-strong));display:block}
+.nf__ascii{font-size:.64rem;line-height:1.18;margin:0}
+.nf__ascii .l1{color:var(--orange)} .nf__ascii .l2{color:var(--yellow)} .nf__ascii .l3{color:var(--green)} .nf__ascii .l4{color:var(--aqua)} .nf__ascii .l5{color:var(--blue)}
 .nf__info{font-size:.76rem;line-height:1.55;min-width:210px;flex:1}
 .nf__hd{color:var(--accent);font-weight:700}
 .nf__sep{color:var(--faint);margin-bottom:3px;overflow:hidden;white-space:nowrap}
@@ -425,11 +426,14 @@ svg{display:block}
           <div class="pl"><span class="box">╭─[</span><span class="usr">cletus@portfolio</span><span class="box">]─[</span><span class="pth">~</span><span class="box">]</span></div>
           <div class="pl"><span class="box">╰─</span><span class="pchar">$</span>neofetch</div>
           <div class="nf">
-<pre class="nf__logo" aria-hidden="true"><span class="l1">  ____   __  __</span>
+            <div class="nf__logo">
+<img class="nf__photo" src="img/profile.jpg" alt="Cletus Xavier S." onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+<pre class="nf__ascii" style="display:none" aria-hidden="true"><span class="l1">  ____   __  __</span>
 <span class="l2"> / ___|  \ \/ /</span>
 <span class="l3">| |       \  / </span>
 <span class="l4">| |___    /  \ </span>
 <span class="l5"> \____|  /_/\_\</span></pre>
+            </div>
             <div class="nf__info">
               <div class="nf__hd">cletus@portfolio</div>
               <div class="nf__sep">———————————————</div>
